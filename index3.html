@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aroma Calm — Lumânări & Bile de Baie Handmade</title>
+  <meta name="description" content="Magazin artizanal din Brașov cu lumânări parfumate și bile de baie naturale, realizate manual.">
+  <link rel="icon" href="/favicon.ico" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="antialiased text-slate-800 bg-white">
+
+  <!-- Header / Navbar -->
+  <header class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#" class="font-semibold text-2xl text-pink-700">Aroma Calm</a>
+      <nav class="hidden md:flex gap-6 text-sm">
+        <a href="#produse" class="hover:text-pink-700">Produse</a>
+        <a href="#recenzii" class="hover:text-pink-700">Recenzii</a>
+        <a href="#despre" class="hover:text-pink-700">Despre</a>
+        <a href="#contact" class="hover:text-pink-700">Contact</a>
+      </nav>
+      <div class="flex items-center gap-4">
+        <button class="relative">
+          🛒
+          <span id="cart-count" class="absolute -top-2 -right-2 bg-pink-600 text-white text-xs px-2 py-0.5 rounded-full">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="bg-gradient-to-b from-pink-50 to-white">
+    <div class="max-w-7xl mx-auto px-4 py-20 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h1 class="text-4xl md:text-5xl font-bold text-pink-800">
+          Răsfață-ți simțurile cu lumânări și bile de baie handmade
+        </h1>
+        <p class="mt-4 text-lg text-slate-600">
+          Produse naturale, parfumuri delicate și ambalaje eco, create manual în atelierul nostru din Brașov.
+        </p>
+        <a href="#produse" class="mt-6 inline-block px-6 py-3 bg-pink-700 text-white rounded-lg hover:bg-pink-800 transition">
+          Cumpără acum
+        </a>
+      </div>
+      <img src="https://images.unsplash.com/photo-1600180758890-6b94519a8ba0?auto=format&fit=crop&w=900&q=80"
+           alt="Lumânări artizanale" class="rounded-2xl shadow-lg" />
+    </div>
+  </section>
+
+  <!-- Categorii -->
+  <section id="categorii" class="py-10 border-t bg-white">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+      <h2 class="text-2xl font-bold text-pink-800 mb-6">Categorii populare</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div class="group border rounded-2xl overflow-hidden shadow-sm cursor-pointer hover:shadow-md transition">
+          <img src="https://images.unsplash.com/photo-1598970434795-0c54fe7c0642?auto=format&fit=crop&w=400&q=80" class="w-full h-40 object-cover group-hover:scale-105 transition" />
+          <p class="py-3 font-semibold">Lumânări parfumate</p>
+        </div>
+        <div class="group border rounded-2xl overflow-hidden shadow-sm cursor-pointer hover:shadow-md transition">
+          <img src="https://images.unsplash.com/photo-1608222022105-9c4ad6e6d2d1?auto=format&fit=crop&w=400&q=80" class="w-full h-40 object-cover group-hover:scale-105 transition" />
+          <p class="py-3 font-semibold">Bile de baie</p>
+        </div>
+        <div class="group border rounded-2xl overflow-hidden shadow-sm cursor-pointer hover:shadow-md transition">
+          <img src="https://images.unsplash.com/photo-1589927986089-3581237889b9?auto=format&fit=crop&w=400&q=80" class="w-full h-40 object-cover group-hover:scale-105 transition" />
+          <p class="py-3 font-semibold">Seturi cadou</p>
+        </div>
+        <div class="group border rounded-2xl overflow-hidden shadow-sm cursor-pointer hover:shadow-md transition">
+          <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=400&q=80" class="w-full h-40 object-cover group-hover:scale-105 transition" />
+          <p class="py-3 font-semibold">Accesorii</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Produse -->
+  <section id="produse" class="py-16 bg-pink-50">
+    <div class="max-w-7xl mx-auto px-4">
+      <h2 class="text-2xl font-bold text-pink-800 text-center mb-10">Cele mai iubite produse</h2>
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
+
+        <!-- Product Card -->
+        <article class="bg-white border rounded-2xl p-4 shadow-sm hover:shadow-md transition flex flex-col">
+          <img src="https://images.unsplash.com/photo-1598970434795-0c54fe7c0642?auto=format&fit=crop&w=800&q=80"
+               alt="Lumânare Lavandă" class="rounded-xl mb-3 aspect-[4/3] object-cover" />
+          <h3 class="font-semibold">Lumânare „Serile de Lavandă”</h3>
+          <p class="text-slate-600 text-sm mt-1 flex-grow">Ceară de soia, ulei esențial de lavandă, fitil din bumbac organic.</p>
+          <div class="mt-3 flex items-center justify-between">
+            <span class="font-bold text-pink-700">59 lei</span>
+            <button class="bg-pink-600 text-white px-3 py-1.5 rounded hover:bg-pink-700 text-sm add-to-cart">Adaugă în coș</button>
+          </div>
+        </article>
+
+        <article class="bg-white border rounded-2xl p-4 shadow-sm hover:shadow-md transition flex flex-col">
+          <img src="https://images.unsplash.com/photo-1608222022105-9c4ad6e6d2d1?auto=format&fit=crop&w=800&q=80"
+               alt="Bile baie Vanilie" class="rounded-xl mb-3 aspect-[4/3] object-cover" />
+          <h3 class="font-semibold">Bile de baie „Vanilie & Migdale”</h3>
+          <p class="text-slate-600 text-sm mt-1 flex-grow">Amestec efervescent cu ulei de migdale dulci, unt de shea și vanilie.</p>
+          <div class="mt-3 flex items-center justify-between">
+            <span class="font-bold text-pink-700">39 lei / 3 buc</span>
+            <button class="bg-pink-600 text-white px-3 py-1.5 rounded hover:bg-pink-700 text-sm add-to-cart">Adaugă în coș</button>
+          </div>
+        </article>
+
+        <article class="bg-white border rounded-2xl p-4 shadow-sm hover:shadow-md transition flex flex-col">
+          <img src="https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?auto=format&fit=crop&w=800&q=80"
+               alt="Lumânare Citrice" class="rounded-xl mb-3 aspect-[4/3] object-cover" />
+          <h3 class="font-semibold">Lumânare „Energie de Dimineață”</h3>
+          <p class="text-slate-600 text-sm mt-1 flex-grow">Note de portocală, grepfrut și mentă. Revigorantă și optimistă.</p>
+          <div class="mt-3 flex items-center justify-between">
+            <span class="font-bold text-pink-700">55 lei</span>
+            <button class="bg-pink-600 text-white px-3 py-1.5 rounded hover:bg-pink-700 text-sm add-to-cart">Adaugă în coș</button>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Recenzii -->
+  <section id="recenzii" class="py-16">
+    <div class="max-w-5xl mx-auto px-4 text-center">
+      <h2 class="text-2xl font-bold text-pink-800 mb-8">Ce spun clienții noștri</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-pink-50 p-6 rounded-2xl shadow-sm">
+          <p class="text-slate-700 italic">„Lumânările sunt superbe! Mirosul de lavandă persistă ore întregi. Recomand din suflet!”</p>
+          <p class="mt-3 font-semibold text-pink-700">— Andreea, București</p>
+        </div>
+        <div class="bg-pink-50 p-6 rounded-2xl shadow-sm">
+          <p class="text-slate-700 italic">„Bilele de baie sunt o adevărată terapie după o zi grea. Ambalajul e foarte elegant.”</p>
+          <p class="mt-3 font-semibold text-pink-700">— Ioana, Cluj</p>
+        </div>
+        <div class="bg-pink-50 p-6 rounded-2xl shadow-sm">
+          <p class="text-slate-700 italic">„Livrare rapidă și produse de calitate! Perfecte pentru cadouri.”</p>
+          <p class="mt-3 font-semibold text-pink-700">— Maria, Brașov</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Despre -->
+  <section id="despre" class="py-16 bg-pink-50 border-t">
+    <div class="max-w-5xl mx-auto px-4 text-center">
+      <h2 class="text-2xl font-bold text-pink-800 mb-6">Despre Aroma Calm</h2>
+      <p class="text-slate-600 max-w-3xl mx-auto">
+        Aroma Calm este o afacere de familie din Brașov, născută din dragostea pentru natură, parfumuri fine și momente de relaxare.
+        Fiecare produs este turnat manual, folosind doar ingrediente sigure și prietenoase cu mediul.
+      </p>
+      <img src="https://images.unsplash.com/photo-1600718371464-458be9b6e869?auto=format&fit=crop&w=900&q=80"
+           alt="Atelier Aroma Calm" class="rounded-2xl shadow-lg mt-8 mx-auto" />
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 border-t">
+    <div class="max-w-3xl mx-auto px-4 text-center">
+      <h2 class="text-2xl font-bold text-pink-800 mb-6">Contactează-ne</h2>
+      <p class="text-slate-600 mb-8">Întrebări, comenzi personalizate sau colaborări? Scrie-ne!</p>
+      <form action="https://formspree.io/f/yourid" method="POST" class="grid gap-4 text-left">
+        <input name="nume" placeholder="Nume" class="border rounded-lg p-3" required />
+        <input type="email" name="email" placeholder="Adresă de email" class="border rounded-lg p-3" required />
+        <textarea name="mesaj" placeholder="Mesajul tău" rows="5" class="border rounded-lg p-3"></textarea>
+        <button class="px-5 py-3 rounded-lg bg-pink-700 text-white hover:bg-pink-800">Trimite mesajul</button>
+      </form>
+      <p class="text-xs text-slate-500 mt-4">sau email: <a href="mailto:contact@aromacalm.ro" class="underline">contact@aromacalm.ro</a></p>
+    </div>
+  </section>
+
+  <footer class="py-8 text-center text-sm text-slate-500 border-t">
+    © <span id="y"></span> Aroma Calm · Toate drepturile rezervate
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+    // Mock cart counter
+    const cartCount = document.getElementById('cart-count');
+    let count = 0;
+    document.querySelectorAll('.add-to-cart').forEach(btn => {
+      btn.addEventListener('click', () => {
+        count++;
+        cartCount.textContent = count;
+        btn.textContent = 'Adăugat ✓';
+        btn.disabled = true;
+        btn.classList.add('bg-pink-400');
+        setTimeout(() => {
+          btn.textContent = 'Adaugă în coș';
+          btn.disabled = false;
+          btn.classList.remove('bg-pink-400');
+        }, 2000);
+      });
+    });
+  </script>
+</body>
+</html>
